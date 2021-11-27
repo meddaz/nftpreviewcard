@@ -1,0 +1,82 @@
+html, body {
+    background-color: hsl(217, 54%, 11%);
+    font-family: 'Outfit', sans-serif;
+    font-size: 18px;
+   padding: 1.2rem;
+   color: #eee;
+   
+  
+   
+   /*margin: 0;*/
+   padding: 0;
+   box-sizing: border-box;
+
+}
+
+img {max-width:100%;    }
+a {color:#eee; }
+
+h2:hover{color:cyan;}
+span:hover {color: cyan;}
+p {font-weight: 300;}
+
+ 
+#card {
+    width: 350px;
+    height: auto;
+    background-color:  hsl(216, 50%, 16%);
+    border-radius: 15px;
+    padding: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    margin:auto;
+    position:absolute;
+  
+}
+
+#main-img {position:relative;}
+#main-img div {position: absolute;
+background-color:cyan;
+height:100%;
+width: 100%;
+top: 0;
+z-index: 999;
+opacity:0;
+}
+#main-img div:hover {
+     opacity: .6;
+}
+#main {position:relative;}
+#icon {
+    position:absolute;
+left: 50%;
+top: 50%;
+transform: translate(-50%, -50%);
+}
+
+#main:hover {
+    opacity: 1;
+    cursor: pointer;
+}
+
+#icon {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#left {color:cyan;}
+#numbers {
+    display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#avatar {
+    width: 1.5rem; border-radius: 50%;}
+ 
+#name {
+    color:cyan;
+}
